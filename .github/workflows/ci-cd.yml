@@ -1,5 +1,4 @@
-"" 
-name: CI/CD
+name: CI/CD Pipeline
 
 on:
   push:
@@ -29,4 +28,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: your-docker-repo/wisecow:latest
+        tags: patidarg/wisecow:latest
